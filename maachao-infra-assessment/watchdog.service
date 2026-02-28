@@ -1,0 +1,11 @@
+[Unit]
+Description=Maachao Watchdog
+After=network.target
+
+[Service]
+ExecStart=/home/deploy/watchdog.sh
+Restart=always
+User=deploy
+
+[Install]
+WantedBy=multi-user.target
