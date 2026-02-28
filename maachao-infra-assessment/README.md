@@ -3,7 +3,7 @@
 ## Server
 - OS: Ubuntu 22.04
 - User: deploy
-- Public IP: <YOUR_PUBLIC_IP>
+- Public IP: 127.0.0.1
 
 ## Features
 - SSH hardening
